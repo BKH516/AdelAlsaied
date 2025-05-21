@@ -1,0 +1,90 @@
+:root {
+  --main-color: #6c63ff;
+  --bg-color: #f5f7fb;
+  --card-bg: #ffffff;
+  --text-color: #333;
+  --radius: 15px;
+  --shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  /* أو استخدم fixed حسب حاجتك */
+  z-index: 9999;
+}
+
+.contact-card {
+  background-color: var(--card-bg);
+  padding: 40px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 700px;
+  width: 100%;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.form-title {
+  font-size: 28px;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+.form-subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.submit-button {
+  background-color: #6c63ff;
+  border: none;
+  box-shadow: var(--shadow);
+  padding: 15px;
+}
+
+.submit-button:hover {
+  background-color: #473df5;
+}

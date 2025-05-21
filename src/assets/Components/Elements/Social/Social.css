@@ -1,0 +1,36 @@
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .slider-track {
+    display: flex;
+    width: calc(250px * 10); 
+    animation: scroll 20s linear infinite;
+  }
+  
+  .slide {
+    width: 400px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px !important;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

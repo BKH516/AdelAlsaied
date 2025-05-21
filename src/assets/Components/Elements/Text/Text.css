@@ -1,0 +1,44 @@
+.x9_button {
+    margin: 0;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  
+    --border-right: 6px;
+    --text-stroke-color: #FFFFFF;
+    --animation-color:  #38BDF8 ;
+    --fs-size: 1em;
+  
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: var(--fs-size);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  
+  .x9_button .x9_actual {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* hover text span */
+  .x9_button .x9_hover {
+    position: absolute;
+    inset: 0;
+    box-sizing: border-box;
+    width: 0%;
+    overflow: hidden;
+    border-right: var(--border-right) solid var(--animation-color);
+    -webkit-text-stroke: 1px var(--animation-color);
+    color: var(--animation-color);
+    transition: width 0.5s;
+  }
+  
+  .x9_button:hover .x9_hover {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+  }
+  

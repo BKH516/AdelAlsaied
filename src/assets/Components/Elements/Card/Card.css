@@ -1,0 +1,65 @@
+.card {
+    display: flex;           
+    flex-direction: row;     
+    gap: 15px;             
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .socialContainer {
+    width: 52px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0A192F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .containerThree svg{
+    width: 40px !important;
+    height: 50px !important;
+    padding-bottom: 10px;
+    padding-right: 7px;
+  }
+  
+  .socialContainer:hover {
+    transform: scale(1.05);
+  }
+  
+  .containerOne:hover {
+    background-color: #d62976; /* Instagram pink */
+  }
+  
+  .containerTwo:hover {
+    background-color: #25f4ee; /* TikTok cyan */
+  }
+  
+  .containerThree:hover {
+    background-color: #1877f2; /* Facebook blue */
+  }
+  
+  .containerFour:hover {
+    background-color: #25d366; /* WhatsApp green */
+  }
+  
+  .socialSvg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+  
+  .largeIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  @media (max-width: 992px) {
+    .card{
+        display: none;
+    }
+  }

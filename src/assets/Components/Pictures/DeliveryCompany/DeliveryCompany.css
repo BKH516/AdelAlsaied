@@ -1,0 +1,17 @@
+  /* background-color: #774d6c; */
+
+.url-5 {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* الصور في الشبكة العادية */
+.photo-wrapper-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

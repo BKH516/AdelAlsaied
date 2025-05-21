@@ -1,0 +1,69 @@
+.Silence {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 65px;
+}
+
+.background-color-Food {
+  background-color: #c17a33da;
+}
+
+.background-color-Dentistry {
+  background-color: #69a1b4d8;
+}
+
+.background-color-DeliveryCompany {
+  background-color: #774d6cd8;
+}
+
+.background-color-TravelAndTourismCompany {
+  background-color: #027a48d5;
+}
+
+.background-color-SoftwareProgrammingCompany {
+  background-color: #001f3fd2;
+}
+
+.background-color-Bakery {
+  background-color: #8d5823da;
+}
+
+.Text-Food-color,
+.Text-Dentistry-color,
+.Text-DeliveryCompany-color,
+.Text-TravelAndTourismCompany-color,
+.Text-SoftwareProgrammingCompany-color,
+.Text-Bakery-color{
+  font-size: clamp(24px, 5vw, 42px);
+  font-weight: bold;
+}
+
+
+.Text-Food-color {
+  color: #ffe0c1;
+}
+
+.Text-Dentistry-color {
+  color: #b4eafc;
+}
+
+.Text-DeliveryCompany-color {
+  color: #ffaae8;
+}
+
+.Text-TravelAndTourismCompany-color {
+  color: #a5ffda;
+}
+
+.Text-SoftwareProgrammingCompany-color {
+  color: #96caff;
+}
+
+.Text-Bakery-color {
+  color: #fdcc9ada;
+}

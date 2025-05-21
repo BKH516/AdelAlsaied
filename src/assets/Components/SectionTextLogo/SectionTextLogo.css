@@ -1,0 +1,45 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo-line {
+  width: 10px;
+  height: 130px;
+  background-color:white;
+}
+
+.logo-text h1 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0;
+  color: white;
+}
+
+.logo-text p {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+
+/* @media (max-width: 768px) {
+  .logo-text h1 {
+    font-size: 36px;
+  }
+
+  .logo-text p {
+    font-size: 18px;
+  }
+
+  .logo-line {
+    width: 6px;
+    height: 75px;
+  }
+
+  .logo-container {
+    gap: 10px;
+  }
+} */

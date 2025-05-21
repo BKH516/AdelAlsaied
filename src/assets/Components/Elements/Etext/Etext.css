@@ -1,0 +1,35 @@
+.wrapper-loader {
+    position: relative;
+  }
+  
+  .text-loader {
+    position: absolute;
+    color: #ffffff00 !important;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    letter-spacing: 5px;
+  }
+
+  .text-loader:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 0.5px #ffffff4b;
+  }
+  
+  .text-loader:nth-child(2) {
+    color:#309ffa;
+    -webkit-text-stroke: 3px #309ffa;
+    animation: animate-loader 2s ease-in-out infinite;
+  }
+  
+  @keyframes animate-loader {
+    0%, 100% {
+      clip-path: polygon(0% 10%, 15% 50%, 32% 15%, 
+        54% 60%, 70% 10%, 10% 59%, 100% 52%, 100% 10%, 0% 100%);
+    }
+    
+    50% {
+      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
+        51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+  }
+  

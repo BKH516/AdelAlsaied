@@ -1,0 +1,15 @@
+.url-2 {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* الصور في الشبكة العادية */
+.photo-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
