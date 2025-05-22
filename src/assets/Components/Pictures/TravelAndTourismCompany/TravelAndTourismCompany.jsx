@@ -8,10 +8,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const TravelAndTourismCompany = () => {
   const images = [
-    "/Image/TravelAndTourismCompany1.jpg",
-    "/Image/TravelAndTourismCompany2.jpg",
-    "/Image/TravelAndTourismCompany3.jpg",
-    "/Image/TravelAndTourismCompany4.jpg",
+    "./Image/TravelAndTourismCompany1.jpg",
+    "./Image/TravelAndTourismCompany2.jpg",
+    "./Image/TravelAndTourismCompany3.jpg",
+    "./Image/TravelAndTourismCompany4.jpg",
   ];
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);

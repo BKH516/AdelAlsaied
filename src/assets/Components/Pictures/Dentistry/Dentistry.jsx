@@ -7,10 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Dentistry = () => {
   const images = [
-    "/Image/Dintestry1.jpg",
-    "/Image/Dintestry2.jpg",
-    "/Image/Dintestry3.jpg",
-    "/Image/Dintestry4.jpg",
+    "./Image/Dintestry1.jpg",
+    "./Image/Dintestry2.jpg",
+    "./Image/Dintestry3.jpg",
+    "./Image/Dintestry4.jpg",
   ];
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);

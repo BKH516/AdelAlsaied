@@ -5,20 +5,20 @@ import "slick-carousel/slick/slick-theme.css";
 import "./SectionLogo.css";
 
 const logos = [
-  "/Logo/1-01.png",
-  "/Logo/2-01.png",
-  "/Logo/3-01.png",
-  "/Logo/4-01.png",
-  "/Logo/5-01.png",
-  "/Logo/6-01.png",
-  "/Logo/7-01.png",
-  "/Logo/8-01.png",
-  "/Logo/9-01.png",
-  "/Logo/10-01.png",
-  "/Logo/11-01.png",
-  "/Logo/12-01.png",
-  "/Logo/13-01.png",
-  "/Logo/14-01.png",
+  "./Logo/1-01.png",
+  "./Logo/2-01.png",
+  "./Logo/3-01.png",
+  "./Logo/4-01.png",
+  "./Logo/5-01.png",
+  "./Logo/6-01.png",
+  "./Logo/7-01.png",
+  "./Logo/8-01.png",
+  "./Logo/9-01.png",
+  "./Logo/10-01.png",
+  "./Logo/11-01.png",
+  "./Logo/12-01.png",
+  "./Logo/13-01.png",
+  "./Logo/14-01.png",
 ];
 
 const SectionLogo = () => {

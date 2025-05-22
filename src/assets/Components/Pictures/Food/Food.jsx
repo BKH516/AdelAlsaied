@@ -10,10 +10,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Food = () => {
   const images = [
-    "/Image/Food1.jpg",
-    "/Image/Food2.jpg",
-    "/Image/Food3.jpg",
-    "/Image/Food4.jpg",
+    "./Image/Food1.jpg",
+    "./Image/Food2.jpg",
+    "./Image/Food3.jpg",
+    "./Image/Food4.jpg",
   ];
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);

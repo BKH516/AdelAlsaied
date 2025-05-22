@@ -25,7 +25,7 @@ export default function Portfolio() {
           </p>
         </div>
         <div className="img-logo">
-          <img src="/Image/logovector2.png" alt="logo" />
+          <img src="./Image/logovector2.png" alt="logo" />
         </div>
       </div>
     </div>

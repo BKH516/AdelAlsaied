@@ -2,11 +2,11 @@ import React from 'react'
 import "./Social.css"
 
 const images = [
-    '/Image/Bakery1.jpg',
-    '/Image/DeliveryCompany1.jpg',
-    '/Image/Dintestry1.jpg',
-    '/Image/RealEstateHome1.jpg',
-    '/Image/TravelAndTourismCompany1.jpg'
+    './Image/Bakery1.jpg',
+    './Image/DeliveryCompany1.jpg',
+    './Image/Dintestry1.jpg',
+    './Image/RealEstateHome1.jpg',
+    './Image/TravelAndTourismCompany1.jpg'
   ];
 export default function Social() {
   return (

@@ -12,7 +12,7 @@ export default function NavBar() {
       <Container>
         <Navbar.Brand className="logo" href="#home">
           <img
-            src="/Image/logovector.png" /* تأكد من المسار الصحيح لملف الصورة */
+            src="./Image/logovector.png" /* تأكد من المسار الصحيح لملف الصورة */
             className="d-inline-block align-top size"
             alt="Logo"
           />

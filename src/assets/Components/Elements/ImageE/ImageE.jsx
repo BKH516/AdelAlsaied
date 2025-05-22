@@ -7,7 +7,7 @@ const Card = () => {
     <div className="gXqW-wrapper">
       <div className="gXqW-box">
         <div className="gXqW-img">
-          <img src="/Image/Photo.jpg" alt="photo" />
+          <img src="./Image/Photo.jpg" alt="photo" />
         </div>
         <ul className="gXqW-social">
           <li className="gXqW-social-item"><a href="https://www.instagram.com/adel_alsaied?igsh=MTRleXJpMThqNzF4Mg==">

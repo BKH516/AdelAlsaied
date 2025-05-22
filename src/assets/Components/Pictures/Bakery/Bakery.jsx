@@ -7,10 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Bakery = () => {
   const images = [
-    "/Image/Bakery1.jpg",
-    "/Image/Bakery2.jpg",
-    "/Image/Bakery3.jpg",
-    "/Image/Bakery4.jpg",
+    "./Image/Bakery1.jpg",
+    "./Image/Bakery2.jpg",
+    "./Image/Bakery3.jpg",
+    "./Image/Bakery4.jpg",
   ];
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);
